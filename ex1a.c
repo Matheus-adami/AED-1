@@ -1,4 +1,7 @@
 #include <stdio.h>
+/* Exercicio 1A - AED-1
+Autor: Matheus Gabriel Dieguez Adami
+*/
 
 int main() {
     int N;
