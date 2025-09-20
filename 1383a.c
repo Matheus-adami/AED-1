@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 #define TAM 9
 
@@ -58,11 +57,9 @@ int main() {
                 scanf("%d", &grade[i][j]);
         printf("Instancia %d\n", instancia);
         if (sudoku_valido(grade))
-            printf("SIM\n");
+            printf("SIM\n\n");
         else
-            printf("NAO\n");
-        //if (instancia < n)
-        //    printf("\n");
+            printf("NAO\n\n");
     }
     return 0;
 }
